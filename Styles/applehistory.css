@@ -1,0 +1,47 @@
+body {
+margin-left: 10%;
+margin-right: 10%;
+height: 100vh;
+font-family: 'Helvetica', 'Arial', sans-serif;
+color: white;
+font-size: 16px;
+text-align: center;
+background-color: #010e38;
+}
+
+#Steve-Jobs{
+    width: 500px;
+    height: auto;
+    border-radius: 5%;
+    border-style: dashed;
+}
+
+
+a{
+    color: papayawhip;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 12pt;
+}
+
+
+#iphone2g{
+    width: 500px;
+    height: auto;
+    border-radius: 5%;
+    border-style: dashed;
+}
+
+
+#applelogo1{
+    width: 500px;
+    height: auto;
+    border-radius: 5%;
+    border-style: dashed;
+}
+
+#applepark1{
+    width: 500px;
+    height: auto;
+    border-radius: 5%;
+    border-style: dashed;
+}
