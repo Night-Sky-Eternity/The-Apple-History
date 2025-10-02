@@ -1,6 +1,7 @@
 body {
 margin-left: 10%;
 margin-right: 10%;
+margin-bottom: 10%;
 height: 100vh;
 font-family: 'Helvetica', 'Arial', sans-serif;
 color: white;
@@ -21,10 +22,28 @@ a{
     color: papayawhip;
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-size: 12pt;
+    border: 2px solid papayawhip;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 
 #iphone2g{
+    width: 500px;
+    height: auto;
+    border-radius: 5%;
+    border-style: dashed;
+}
+
+
+#ipad{
+    width: 500px;
+    height: auto;
+    border-radius: 5%;
+    border-style: dashed;
+}
+
+#mac{
     width: 500px;
     height: auto;
     border-radius: 5%;
