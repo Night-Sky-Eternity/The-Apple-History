@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Cloudflare Tunnel",
+      "type": "shell",
+      "command": "cloudflared tunnel run 3f21da9f-4b76-46a5-83eb-938c160fa250",
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": [
+          {
+            "regexp": ".*Registered tunnel connection.*",
+            "file": 1,
+            "location": 2,
+            "message": 3
+          }
+        ],
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*Starting metrics server.*",
+          "endsPattern": ".*Registered tunnel connection.*"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    }
+  ]
+}

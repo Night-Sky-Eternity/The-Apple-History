@@ -1,0 +1,18 @@
+[project]
+name = "the-apple-story"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "StelarDream",email = "90330577+StelarDream@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi (>=0.118.0,<0.119.0)",
+    "uvicorn (>=0.37.0,<0.38.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

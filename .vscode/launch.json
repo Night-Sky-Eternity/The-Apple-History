@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run FastAPI (Nino) + Cloudflare",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "the_apple_story.main:app",
+        "--reload",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "8001"
+      ],
+      "preLaunchTask": "Start Cloudflare Tunnel",
+      "console": "integratedTerminal",
+      "env": {
+        "POETRY_ACTIVE": "1"
+      },
+      "python": "${workspaceFolder}/.venv/bin/python"
+    }
+  ]
+}
